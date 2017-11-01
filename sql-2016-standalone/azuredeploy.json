@@ -26,15 +26,16 @@
         "sqlInstallationISOUri": {
             "type": "string",
             "metadata": {
-                "description": "The Uri to the SQL Server installation ISO. E.g http://care.dlservice.microsoft.com/dl/download/2/F/8/2F8F7165-BB21-4D1E-B5D8-3BD3CE73C77D/SQLServer2014SP1-FullSlipstream-x64-ENU.iso"
-            }
+                "description": "The Uri to the SQL Server installation ISO."
+            },
+            "defaultValue": "https://honcaorp.blob.core.windows.net/images/SQLServer2016-x64-ENU.iso"
         },
         "assetLocation": {
             "type": "string",
             "metadata": {
                 "description": "The location of resources that the script is dependent on such as linked templates and DSC modules"
             },
-            "defaultValue": "https://raw.githubusercontent.com/Azure/AzureStack-QuickStart-Templates/master/sql-2014-standalone"
+            "defaultValue": "https://raw.githubusercontent.com/honcao/AzureStack-QuickStart-Templates/master/sql-2016-standalone"
 
         },
         "vmSize": {
