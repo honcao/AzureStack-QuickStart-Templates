@@ -28,7 +28,7 @@
             "metadata": {
                 "description": "The Uri to the SQL Server installation ISO."
             },
-            "defaultValue": "https://honcaorp.blob.core.windows.net/images/SQLServer2016-x64-ENU.iso"
+            "defaultValue": "https://azurestacktemplate.blob.core.windows.net/azurestacktemplate-public-container/SQLServer2016-x64-ENU.iso"
         },
         "assetLocation": {
             "type": "string",
